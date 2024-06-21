@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function Table({ type }) {
+function DynamicTable({ type }) {
   const [rows, setRows] = useState([])
   const [newRow, setNewRow] = useState({ quantum: '', tempoChegada: '', tempoExecucao: '' })
 
@@ -79,4 +79,4 @@ function Table({ type }) {
   )
 }
 
-export default Table
+export default DynamicTable
